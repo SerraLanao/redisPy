@@ -1,2 +1,2 @@
-# redisPy
-test of how redis work in py
+# RedisPy
+Flask (python) app to test how Redis work in python
