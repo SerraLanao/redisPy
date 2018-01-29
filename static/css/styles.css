@@ -1,0 +1,124 @@
+/*-- LOADING --*/
+.loader-warper{
+	display: none;
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.3);
+}
+.loader {
+	margin-top: 63%;
+    margin-left: 35%;
+
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+.result{
+	text-align: center;
+    font-size: 8vw;
+    margin-top: 10%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/*-- width --*/
+.div25{
+	width:23%;
+	display: inline-block;
+}
+.div50{
+	width: 49%;
+	display: inline-block;
+}
+.div75{
+	width: 73%;
+	display: inline-block;
+}
+.div100{
+	width:99%;
+	display: inline-block;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+/*-- Height --*/
+
+.vh20{
+	height:20vh;
+}
+.vh60{
+	height:60vh;
+}
+.h100{
+	height: 100%;
+}
+/*-- Padings --*/
+.padingTB{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+.paddingL24{
+	padding-left: 24%;
+}
+
+/*-- Justificacion de textos --*/
+.center{
+	text-align: center;
+}
+
+/*-- Backgrounds --*/
+.bgBlue{
+	background: blue;
+}
+
+.bgBlack{
+	background: black;
+	color: white;
+}
+.bgRed{
+	background: red;
+}
+.bgOrange{
+	background: orange;
+}
+.bgGreen{
+	background: green;
+}
+.bgBrown{
+	background: brown;
+	color: white;
+}
+
+.bgYellow{
+	background: yellow;
+}
+
+/*-- Alignment --*/
+.textLeft{
+	text-align:left;
+}
+.alignmentLeft{
+	float: left;
+}
+
+.alignmentRight{
+	float: right;
+}
+
+.alignmentCenter{
+	margin:0 auto;
+	display:inline-block
+}

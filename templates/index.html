@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Redis App</title>
-</head>
-<body>
-	<h1>Hola Mundo!</h1>
-	<p>Hola redis</p>
-	<p>Example: {{p}}</p>
-</body>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Redis APP</title>
+
+	   <!-- Bootstrap -->
+	  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
+
+	  <!-- Custom -->
+	  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+
+	</head>
+	<body>
+
+		<div class="loader-warper">
+		  <div class="loader"></div>
+		</div>
+		<div class="container">
+			<h1>Hola Mundo!</h1>
+			<p>Hola redis</p>
+			<p>Example: {{p}}</p>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+
+		<script src="{{ url_for('static',filename='js/ready.js') }}"></script>
+
+	</body>
 </html>
